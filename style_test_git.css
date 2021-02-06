@@ -1,0 +1,75 @@
+/*page css test */
+
+header
+{
+    height: 150px;
+    width: auto;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+}
+img
+{
+    border: 1px solid green;
+    height: 100px;  
+}
+nav 
+{
+    
+    height: 50px;   
+}
+nav ul
+{
+    width: 600px;
+    
+    display: flex;   
+    justify-content: flex-end;
+}
+nav li
+{
+    width: 100px;
+    border: 1px solid red;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+@media all and (max-width: 1024px)
+{
+    header
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    nav ul
+    {
+        justify-content: flex-start;
+        
+        border: 1px solid green;
+        height: 135px;
+        width: 400px; 
+    }
+    nav li
+    {
+        width: 600px; 
+        border: 1px solid red;
+        align-items: flex-end;
+        
+        
+    }
+    nav li:nth-child(3)
+    {
+        border: 1px solid yellow;
+        align-items: flex-start;
+        margin-top: 20px;
+        flex: 1;
+    }
+    
+    img
+    {
+        width: 100px;
+        position: absolute;
+    }
+}
+
