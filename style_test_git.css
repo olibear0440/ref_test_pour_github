@@ -1,75 +1,77 @@
 /*page css test */
 
-header
+
+
+table
 {
-    height: 150px;
+    
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-collapse: collapse;
+}  
+td
+{
+    border: 1px solid blue;  
+}
+
+td .fa-map-marker-alt
+{
+
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+td #saisieclient
+{
     width: auto;
-    border: 1px solid blue;
-    display: flex;
-    justify-content: space-between;
-}
-img
-{
-    border: 1px solid green;
-    height: 100px;  
-}
-nav 
-{
+    height: 30px;
     
-    height: 50px;   
 }
-nav ul
+input
 {
-    width: 600px;
-    
-    display: flex;   
-    justify-content: flex-end;
+    height: 40px;
 }
-nav li
+td .bouton_rechercher
 {
-    width: 100px;
-    border: 1px solid red;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    height: 40px;
+    width: 100%;
 }
-@media all and (max-width: 1024px)
+.fa-search
 {
-    header
-    {
-        width: auto;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-    }
-    nav ul
-    {
-        justify-content: flex-start;
-        
-        border: 1px solid green;
-        height: 135px;
-        width: 400px; 
-    }
-    nav li
-    {
-        width: 600px; 
-        border: 1px solid red;
-        align-items: flex-end;
-        
-        
-    }
-    nav li:nth-child(3)
-    {
-        border: 1px solid yellow;
-        align-items: flex-start;
-        margin-top: 20px;
-        flex: 1;
-    }
-    
-    img
-    {
-        width: 100px;
-        position: absolute;
-    }
+    position: absolute;
+    left: 240px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
